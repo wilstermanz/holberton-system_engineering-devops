@@ -14,7 +14,7 @@ do
 		9) 	echo -e "$i\nbad luck from Japan"
 			i=$(( i + 1 ))
 			;;
-		17)	echo -e "$i\ngood luck from Italy"
+		17)	echo -e "$i\nbad luck from Italy"
 			i=$(( i + 1 ))
 			;;
 		*)	echo "$i"
