@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays own PID
+ps x | grep "./0-what-is-my-pid" | cut -d " " -f 1 | head -1
