@@ -1,2 +1,1 @@
-# holberton-system_engineering-devops
-0x00 shell basics
+I will fill this later
