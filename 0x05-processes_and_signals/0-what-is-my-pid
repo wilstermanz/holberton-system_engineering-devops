@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script makes me want to die
+# This script echoes it's own PID
 
 echo "$$"
