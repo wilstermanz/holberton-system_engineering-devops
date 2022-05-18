@@ -4,14 +4,15 @@
 #	* Displays I hate the kill command when receiving a SIGTERM signal
 #	* Displays Y U no love me?! when receiving a SIGINT signal
 #	* Deletes the file /var/run/my.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal
+
 echo "$$" > /var/run/myscript.pid
 
-trap    "echo 'I hate the kill command'; rm /var/run/my.pid; exit" SIGTERM
-trap    "echo 'Y U no love me?!'" SIGINT
-trap    "rm /var/run/my.pid; exit" SIGQUIT
+trap "echo 'I hate the kill command'; rm /var/run/my.pid; exit" SIGTERM
+trap "echo 'Y U no love me?!'" SIGINT
+trap "rm /var/run/my.pid; exit" SIGQUIT
 
 i=1
 while [[ $i = 1 ]]
 do
-	echo 	"To infinity and beyond"
+	echo "To infinity and beyond"
 done
