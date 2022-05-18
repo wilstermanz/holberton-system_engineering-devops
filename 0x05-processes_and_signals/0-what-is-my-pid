@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # This script makes me want to die
+
 echo "$$"
